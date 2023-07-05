@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ChipSample"
+             xmlns:chip="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core"
+             x:Class="ChipSample.MainPage">
+
+    <ContentPage.BindingContext>
+        <local:ViewModel></local:ViewModel>
+    </ContentPage.BindingContext>
+    <StackLayout VerticalOptions="Center" Spacing="10" >
+        <chip:SfChip HeightRequest="33" WidthRequest="100"  Text="Single Chip"  x:Name="chips" />
+        <chip:SfChipGroup Margin="0,20,0,0" 
+			ItemsSource="{Binding Employees}" 
+			ChipPadding="8,8,0,0"  
+			DisplayMemberPath="Name" ItemHeight="33"
+			ChipBackground="white"
+			ChipTextColor="Black"
+			HorizontalOptions="CenterAndExpand" 
+			VerticalOptions="Center">
+
+        </chip:SfChipGroup>
+    </StackLayout>
+
+</ContentPage>
