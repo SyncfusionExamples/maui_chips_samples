@@ -41,7 +41,7 @@ Initialize an empty [SfChipGroup] as shown in the following code snippet
 
 <ContentPage.Content>
 	<Grid>
-		<chip:SfChipGroup/>
+             <chip:SfChipGroup/>
 	</Grid>
 </ContentPage.Content>
 ```
