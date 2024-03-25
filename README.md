@@ -1,8 +1,8 @@
 # Maui Chips samples
 This section explains the steps required to create chips and arrange them in a layout for performing action. This section covers only the minimal features that you needed to know to get started with the chips.
-# Adding .NET MAUI Chips reference
+## Adding .NET MAUI Chips reference
 Syncfusion .NET MAUI components are available in nuget.org. To add Chips to your project, open the NuGet package manager in Visual Studio, search for Syncfusion.Maui.Core, and then install it.
-# Adding the .NET MAUI Chips control
+## Adding the .NET MAUI Chips control
 Step 1: Add the NuGet to the project
 
 Step 2: Add the namespace as shown in the following code snippet
@@ -32,7 +32,7 @@ SfChip chips = new SfChip();
 Content = chips;
 ```
 
-# For SfChipGroup
+#3 For SfChipGroup
 Initialize an empty [SfChipGroup] as shown in the following code snippet
 
 **[XAML]**
