@@ -32,7 +32,7 @@ SfChip chips = new SfChip();
 Content = chips;
 ```
 
-#3 For SfChipGroup
+## For SfChipGroup
 Initialize an empty [SfChipGroup] as shown in the following code snippet
 
 **[XAML]**
